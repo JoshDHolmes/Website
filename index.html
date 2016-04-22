@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+
+
+`' .-. .-. . . .-. .-. .     . . .-. . . .-.   .-. .-. .-. .-. .-. .-. .-. `'     .-. .-. .-. .-.     .-. .-. . . .-. .-. . . .-.   .-. . . .-. .-. .-.
+`; |(  |-  | | |-  |-| |      |  | | | | |(    `-. |-  |   |(  |-   |  `-. `;     |-' |(  | | |-      `-. |-  | | |-  |(  | | `-.   `-. |\| |-| |-' |- 
+   ' ' `-' `.' `-' ` ' `-'    `  `-' `-' ' '   `-' `-' `-' ' ' `-'  '  `-'        '   ' ' `-' '   .   `-' `-' `.' `-' ' ' `-' `-'   `-' ' ` ` ' '   `-'
+
+
+-->
+<html>
+    <head>
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <meta name="description" content="Joshua Holmes is a web developer and designer, UX and UI dabbler, sysadmin, technology enthusiast and firefighter based in Australia.">
+        <meta name="keywords" content="Web Developer, Web Designer, UX, UI">
+        <meta name="author" content="Joshua Holmes">
+        <meta property="og:image" content="/images/logo_lg.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <title>Joshua Holmes.</title>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-24895864-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body class="teal lighten-1">    
+        <div class="container">
+            <div class="row section"></div>
+            <div class="row section"></div>
+            <div class="row section"></div>
+            <div class="row section">
+                <div class="col s12 m6 l6">
+                    <h1 ondblclick="reveal()" class="white-text" style="font-weight:900;" id="name">Joshua Holmes.</h1>
+                    <h5 class="grey-text text-lighten-5">Designer, developer, volunteer, geek.</h5>
+                </div>
+            </div>       
+            <div class="row section">
+                <div class="col s12 m6 l6">
+                    <a class="teal lighten-5 waves-effect waves-teal btn-flat" href="/about">About</a>
+                    <a class="teal lighten-5 waves-effect waves-teal btn-flat" href="/portfolio">Portfolio</a>
+                    <a class="teal lighten-5 waves-effect waves-teal btn-flat" href="http://mytwocents.joshuaholmes.id.au">Blog</a>
+                </div>
+            </div>
+            <div class="row section">
+                <div class="col s12 m6 l6">
+                    <a class="btn-floating waves-effect waves-light teal" href="http://twitter.com/joshdholmes" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="btn-floating waves-effect waves-light teal" href="http://linkedin.com/in/joshdholmes" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn-floating waves-effect waves-light teal" href="http://github.com/joshdholmes" target="_blank"><i class="fa fa-github"></i></a>
+                    <a class="btn-floating waves-effect waves-light teal" href="http://facebook.com/joshuaholmesfreelance" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="btn-floating waves-effect waves-light teal" href="mailto:hello@joshuaholmes.id.au" target="_blank"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content valign-wrapper">
+                <img src="images/qr.png">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/reveal.js"></script>
+        <script src="https://cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
+        <script> cheet('up up down down left right left right b a', function() {
+        $('#modal1').openModal();});</script>
+    </body>
+</html>
