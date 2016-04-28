@@ -33,6 +33,23 @@
             ga('send', 'pageview');
 
         </script>
+        <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '<APP_ID>',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "http://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     </head>
     <body class="teal lighten-1">    
         <div class="container">
@@ -59,6 +76,11 @@
                     <a class="btn-floating waves-effect waves-light teal" href="http://github.com/joshdholmes" target="_blank"><i class="fa fa-github"></i></a>
                     <a class="btn-floating waves-effect waves-light teal" href="http://facebook.com/joshuaholmesfreelance" target="_blank"><i class="fa fa-facebook"></i></a>
                     <a class="btn-floating waves-effect waves-light teal" href="mailto:hello@joshuaholmes.id.au" target="_blank"><i class="fa fa-envelope"></i></a>
+                    <div class="fb-messengermessageus" 
+  messenger_app_id="1077727002262183" 
+  page_id="103204939718051"
+  color="blue"
+  size="standard" ></div>
                 </div>
             </div>
         </div>
