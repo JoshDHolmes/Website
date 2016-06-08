@@ -88,7 +88,7 @@
                             <span class="teal-text activator" style="cursor: pointer;">DETAILS</span>
                             <div class="right">
                                 <a href="https://play.google.com/store/apps/details?id=com.ionicframework.elderlyapp894867&hl=en" class="teal-text text-lighten-1"><i class="fa fa-android"></i></a>
-                                <a href="https://www.youtube.com/watch?v=ADRrR1BtXZs" class="teal-text text-lighten-1"><i class="fa fa-youtube"></i></a>
+                                <a data-target="JTMmodal" class="teal-text text-lighten-1 modal-trigger" style="cursor: pointer;"><i class="fa fa-youtube"></i></a>
                                 <a href="http://justteachme.co" class="teal-text text-lighten-1"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                         <div class="card-action">
                             <span class="teal-text activator" style="cursor: pointer;">DETAILS</span>
                             <div class="right">
-                                <a href="https://www.youtube.com/watch?v=m81P2p7sEIU" class="teal-text text-lighten-1"><i class="fa fa-youtube"></i></a>
+                                <a data-target="TFNmodal" class="teal-text text-lighten-1 modal-trigger" style="cursor: pointer;"><i class="fa fa-youtube"></i></a>
                                 <a href="http://3723ict.joshuaholmes.id.au/" class="teal-text text-lighten-1"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                         <div class="card-action">
                             <span class="teal-text activator" style="cursor: pointer;">DETAILS</span>
                             <div class="right">
-                                <a href="https://www.youtube.com/watch?v=d4i3L4na3F4" class="teal-text text-lighten-1"><i class="fa fa-youtube"></i></a>
+                                <a data-target="CASmodal" class="teal-text text-lighten-1 modal-trigger" style="cursor: pointer;"><i class="fa fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card-reveal">
@@ -281,6 +281,7 @@
                         <div class="card-action">
                             <span class="teal-text activator" style="cursor: pointer;">DETAILS</span>
                             <div class="right">
+                                <a data-target="KCmodal" class="teal-text text-lighten-1 modal-trigger" style="cursor: pointer;"><i class="fa fa-camera"></i></a>
                                 <a href="https://chrome.google.com/webstore/detail/kwote/jjblbmmcloblekijnhckinkbkiadpdga" class="teal-text text-lighten-1"><i class="fa fa-chrome"></i></a>
                                 <a href="https://github.com/JoshDHolmes/kwote-chrome" class="teal-text text-lighten-1"><i class="fa fa-github"></i></a>
                             </div>
@@ -325,6 +326,39 @@
                 </div>
             </div>
         </div>
+        <!-- Modals -->
+        <div id="JTMmodal" class="modal">
+            <div class="modal-content">
+                <iframe width="750" height="422" src="https://www.youtube.com/embed/ADRrR1BtXZs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="TFNmodal" class="modal">
+            <div class="modal-content">
+                <iframe width="750" height="422" src="https://www.youtube.com/embed/m81P2p7sEIU?rel=0&amp;showinfo=0"  frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="CASmodal" class="modal">
+            <div class="modal-content">
+                <iframe width="750" height="422" src="https://www.youtube.com/embed/d4i3L4na3F4?rel=0&amp;showinfo=0"  frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="KCmodal" class="modal">
+            <div class="modal-content">
+                <img src="http://lorempixel.com/750/422/nature/1"> <!-- random image -->
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
         <footer class="page-footer teal">
           <div class="footer-copyright grey darken-3">
             <div class="container">
@@ -337,5 +371,6 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="../js/materialize.min.js"></script>
         <script type="text/javascript" src="../js/menu.js"></script>
+        <script type="text/javascript" src="../js/modal.js"></script>
     </body>
 </html>
